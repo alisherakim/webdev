@@ -1,0 +1,7 @@
+a = int(input())
+b = int(input())
+if a>0:
+    q = b*a - 109
+if a<0:
+    q = b*a+109
+print(q)
