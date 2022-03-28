@@ -1,0 +1,8 @@
+a = int(input())
+b= int(input())
+q = str(a)
+if (len(q)==4 and q[0]==q[3] and q[1]==q[2] and b==1) or (len(q)==4 and q[0]!=q[3] and q[1]!=q[2] and b!=1) or (len(q)!=4 and b!=1):
+    print("YES")
+else:
+    print("NO")
+    
