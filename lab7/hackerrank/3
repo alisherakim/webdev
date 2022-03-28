@@ -1,6 +1,6 @@
 a= int(input())
 q= set()
-for i in (0,a):
+for i in range (0,a):
     b=int(input())
     q.add(b)
 r=list(q)
