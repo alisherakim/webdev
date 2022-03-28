@@ -1,0 +1,7 @@
+a= int(input())
+q= set()
+for i in (0,a):
+    b=int(input())
+    q.add(b)
+r=list(q)
+print(r[-1])
