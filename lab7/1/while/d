@@ -1,0 +1,8 @@
+a = int(input())
+i = 0
+while i<=a:
+    if 2**i==a:
+        print("YES")
+        i=a+1
+    else:    
+        i=i+1
